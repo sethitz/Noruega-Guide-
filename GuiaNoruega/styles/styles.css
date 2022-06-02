@@ -1,0 +1,81 @@
+body{
+    background-color: #333;
+    background-image: url(https://allegra.flowersetcfresno.com/pic/2871166_full-fondos-de-pantalla-de-noruega-pc-1080-norway-wallpapers-top-free-norway-backgrounds-wallpaperaccess.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+aside{
+    display: flex;
+    margin-top: 56px;
+    height: 100vh;
+    background-color: rgba(51, 51, 51, 0.541);
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 100%;
+}
+h2{
+    margin: 0;
+    font-size: 80px;
+    color: rgb(0, 255, 195);
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+h3{
+    margin: 0;
+    color: rgb(26, 236, 255);
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+main{
+    width: 100%;
+    height: 54.3vh;
+    background-color:#222129ee;
+}
+.main-tittle-container{
+    text-align: center;
+    padding: 3vh;
+}
+.main-tittle{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.flex-main-container{
+    display: flex;
+    width: 100%;
+    height: 42vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+    color: #fff;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.flex-item{
+    height: 100%;
+    font-family:'Times New Roman', Times, serif, cursive;
+}
+img{
+    height: 250px;
+    max-width: 250px;
+}
+h4{
+    font-size: 35px;
+}
+@media only screen and (max-width: 800px){
+    main{
+        height: 100%;
+    }
+}
